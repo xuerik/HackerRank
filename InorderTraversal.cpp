@@ -20,7 +20,6 @@ void Inorder(node *root) {
     Inorder(root->left);
   }
   
-  // 
   else {
     cout << root->data << " ";
     return;
